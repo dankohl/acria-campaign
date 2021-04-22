@@ -1,0 +1,162 @@
+
+
+/* ----------------- 
+    Base Styles
+------------------ */
+* {
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+main {
+    display: block;
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #7b968f;
+    padding: 2em;
+}
+
+main h2 {
+    margin: 0;
+}
+
+main p:last-child {
+    margin-bottom: 0;
+}
+
+p a:link {
+    color: #394642;
+    text-decoration: none;
+}
+
+/* ----------------- 
+   class/id Styles
+------------------ */
+.link-img:link,
+.link-img:visited {
+    text-decoration:  none;
+}
+
+#main-title {
+    background: #6c7729 url("../img/Acria-Unnamed-Provinces.jpg") center/cover;
+    /* box-shadow: inset 0 -.5em 1em 1em  rgba(181, 187, 179, 0.5); */
+    margin: 0;
+    padding: 8em 2em 4em 2em;
+    height: 300px;
+    text-align: center;
+}
+
+#main-title h1, 
+#main-title h3 {
+    margin: 0;
+    color: white;
+    text-shadow: 1px 2px 1px #71502d;
+    
+}
+
+#main-title h3 {
+    font-weight: 100;
+    font-size: 1rem;
+    text-shadow: none;
+}
+
+.nav-menus {
+    border-bottom: 1px solid #7b968f;
+}
+
+.nav-menus h3 {
+    margin: 0;
+    padding: .3em .5em;
+    background: linear-gradient(to top, #566964 2%, #7b968f 94%, #6c7729 );
+    color: white;
+    
+}
+
+.nav-menus ul {
+    border-bottom: none;
+    margin: 0;
+    padding-left: 0;
+    background-color: white;
+}
+
+.nav-menus ul li:first-child {
+    border: none;
+}
+
+.nav-menus ul li {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 2px 0 0 1em;
+    border-top:1px solid #7b968f;
+    box-shadow: inset 0 0 5px 0 #7b968f;
+    background-color: #6c772905;
+}
+
+.nav-menus ul li a:link {
+    color:#7b968f;
+    text-decoration: none;    
+}
+
+.nav-menus ul li a:hover
+.nav-menus ul li a:visited{
+    color:#7b968f;
+    text-decoration: underline !important;
+}
+
+.nav-menus ul li:hover
+{
+    background-color: #7b968f20;
+}
+
+
+
+/* ----------------- 
+    Media Queries
+------------------ */
+
+/* @media only screen and (min-width: 500px) {
+    .nav-menus {
+        width: 12em;
+        height: 100%;
+        position:fixed;
+        z-index: 1;
+        top: 410;
+        left: 0;
+        background-color: #fbeec1;
+
+    }
+
+    #main-title {
+        padding: 10em 2em;
+        height: 410;
+    }
+
+    #main-title h1 {
+        font-size: 3em;
+    }
+
+    #main-title h3 {
+        font-size: 1.5em;
+    }
+
+    main {
+        margin-left:  12em;
+        padding: 2em;
+        background-color: white;
+        height: calc(100vh-410px);
+        max-width: 80%;
+    }
+
+    body {
+        background-color: #659DBD;
+    }
+
+}
+     */
